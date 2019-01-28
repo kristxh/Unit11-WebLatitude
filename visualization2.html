@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Web Visualization - Latitude vs. Humidity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Creates the Overall Grid -->
+  <div class="container">
+    <!-- Creates the Nav Container -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Latitude</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="visualization1.html">Max Temperature</a></li>
+                <li><a href="visualization2.html">Humidity</a></li>
+                <li><a href="visualization3.html">Cloudiness</a></li>
+                <li><a href="visualization4.html">Windspeed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Middle-->
+    <div class="container">
+      <div class="row">
+        <!--First Column in this Row-->
+        <div class="col-md-8">
+          <div class="box">
+            <h1>Humidity</h1>
+            <hr>
+            <p><img src="Resources/assets/images/Fig2.png" class="img-responsive" alt="Figure 1"></p><br>
+            <p>There is no strong relationship between latitude and humidity. </p>
+          </div>
+        </div>
+
+        <!--Second Column in this Row-->
+        <div class="col-md-4">
+          <div class="box">
+            <h1>Visualizations</h1>
+            <hr>
+            <p><a href="visualization1.html"><img src="Resources/assets/images/Fig1.png" width="155" alt="Figure 1"></a>&nbsp;<a
+                href="visualization2.html"><img class="imgoutline" src="Resources/assets/images/Fig2.png" width="155"
+                  alt="Figure 2"></a></p>
+            <p><a href="visualization3.html"><img src="Resources/assets/images/Fig3.png" width="155" alt="Figure 3"></a>&nbsp;<a
+                href="visualization4.html"><img src="Resources/assets/images/Fig4.png" width="155" alt="Figure 4"></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row thinline">
+      <div class="col">
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row footer panel-footer">
+      <p>© Copyright Coding Bootcamp 2019</p>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
